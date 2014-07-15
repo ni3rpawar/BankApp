@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC
+	"-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+	"http://sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	<listener>
+		<listener-class>bankapp.listeners.ContextListener</listener-class>
+	</listener>
+  
+	<servlet>
+		<display-name>MainControllerServlet</display-name>
+		<servlet-name>MainControllerServlet</servlet-name>
+		<servlet-class>bankapp.web.MainControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MainControllerServlet</servlet-name>
+		<url-pattern>/MainController.html</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<display-name>EmployeeServlet</display-name>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<servlet-class>bankapp.web.EmployeeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<url-pattern>/Employee.html</url-pattern>
+	</servlet-mapping>
+</web-app>
