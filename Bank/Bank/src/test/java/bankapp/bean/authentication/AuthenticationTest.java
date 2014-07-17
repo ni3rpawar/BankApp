@@ -54,7 +54,7 @@ public class AuthenticationTest{
 		
 			
 	}
-
+/*
 	@Test
 	public void testCheckIfAnotherUserExist() throws Exception{
 		System.out.println("==>> inside testCheckIfUserExist");
@@ -80,4 +80,5 @@ public class AuthenticationTest{
 		
 			
 	}
+	*/
 }

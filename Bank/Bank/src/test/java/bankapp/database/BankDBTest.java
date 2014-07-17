@@ -77,7 +77,7 @@ public class BankDBTest{
 		Assert.assertEquals(authDetails.getLastName(), lastName);
 			
 	}
-
+/*
 	@Test
 	public void testRetrieveCustomerInformation() throws Exception{
 		System.out.println("==>> inside testCustomerExist");
@@ -102,7 +102,7 @@ public class BankDBTest{
 		Assert.assertEquals(custDetails.getFirstName(), firstName);
 		Assert.assertEquals(custDetails.getLastName(), lastName);
 	}
-
+*/
 
 
 	
